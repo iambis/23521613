@@ -1,0 +1,32 @@
+h1,
+h2,
+h3,
+h4 {
+  font-size: 24px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+#gioithieubanthan {
+  background-color: #f3fde8;
+}
+
+#guithongtin {
+  background-image: url("https://pixabay.com/vi/photos/xe-%C4%91i%E1%BB%87n-milan-n%C6%B0%E1%BB%9Bc-%C3%BD-th%C3%A0nh-ph%E1%BB%91-9840971/");
+  background-repeat: repeat;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+nav,
+footer {
+  background-color: #d4f2f4;
+  color: #0b0848;
+  text-align: center;
+  padding: 10px;
+}

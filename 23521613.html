@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="VI">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Giới thiệu bản thân</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#gioithieubanthan">Giới thiệu bản thân</a> |
+      <a href="#guithongtin">Gửi thông tin và giao lưu</a>
+    </nav>
+    <div id="gioithieubanthan">
+      <img
+        src="avt.jpg"
+        alt="Ảnh đại diện"
+        style="display: block; margin: 0 auto"
+        width="150"
+        height="220"
+      />
+      <h1 style="color: #caedff">Giới thiệu bản thân</h1>
+      <h2 style="color: #d8b4f8">Thông tin cơ bản</h2>
+      <ul>
+        <li>Tên: Nguyễn Đoàn Thùy Trâm</li>
+        <li>Năm sinh: 2005</li>
+        <li>Chuyên ngành: Hệ thống Thông tin</li>
+      </ul>
+      <h2 style="color: #d8b4f8">Sở thích</h2>
+      <h3 style="color: #ffc7ea">Món ăn</h3>
+      <ol>
+        <li>Phỏ bò</li>
+        <li>Bún đậu mắm tôm</li>
+        <li>Bánh chocolava</li>
+      </ol>
+      <h3 style="color: #ffc7ea">Giải trí</h3>
+      <h4>Trò chơi</h4>
+      <ul>
+        <li>Cầu lông</li>
+        <li>Bóng chuyền</li>
+        <li>Thể thao điện tử</li>
+      </ul>
+      <h4>Bài nhạc yêu thích</h4>
+      <ul>
+        <li>Thiên lý ơi _ J97</li>
+        <li>Hồng nhan _ J97</li>
+        <li>Bạc phận _ J97</li>
+      </ul>
+      <h2 style="color: #d8b4f8">Mục tiêu của bản thân</h2>
+      <table>
+        <tr>
+          <th>Mục tiêu</th>
+          <th>Thời hạn</th>
+          <th>Hoàn thành</th>
+        </tr>
+        <tr>
+          <td>Trung bình điểm môn Web đạt 8.0</td>
+          <td>dd/mm/yyyy</td>
+          <td><input type="checkbox" /></td>
+        </tr>
+        <tr>
+          <td>Đạt chưng chỉ ngoại ngữ đủ chuẩn tốt nghiệp</td>
+          <td>dd/mm/yyyy</td>
+          <td><input type="checkbox" /></td>
+        </tr>
+        <tr>
+          <td>Chọn được công ty với vị trí backend developer</td>
+          <td>dd/mm/yyyy</td>
+          <td><input type="checkbox" /></td>
+        </tr>
+      </table>
+    </div>
+    <div id="guithongtin">
+      <h1 style="color: #caedff">Gửi thông tin và giao lưu cùng tôi</h1>
+      <form>
+        <label for="name">Họ và tên:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+        <label for="message">Tin nhắn:</label><br />
+        <textarea id="message" name="message" rows="4" cols="50"></textarea
+        ><br />
+        <label>Giới tính:</label><br />
+        <input type="radio" id="male" name="gender" value="Nam" />
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ" />
+        <label for="female">Nữ</label><br />
+        <label>Sở thích:</label><br />
+        <input
+          type="checkbox"
+          id="nghenhac"
+          name="interest"
+          value="Nghe nhạc"
+        />
+        <label for="nghenhac">Nghe nhạc</label>
+        <input type="checkbox" id="boiloi" name="interest" value="Bơi lội" />
+        <label for="boiloi">Bơi lội</label>
+        <input type="checkbox" id="bien" name="interest" value="Biên" />
+        <label for="bien">Biên</label><br />
+        <label for="major">Ngành học:</label><br />
+        <select id="major" name="major">
+          <option value="khoahocmaytinh">Khoa học Máy tính</option>
+          <option value="hethongthongtin">Hệ thống Thông tin</option>
+          <option value="congnghephanmem">Công nghệ Phần mềm</option>
+          <option value="khoahocdulieu">Khoa học Dữ liệu</option>
+          <option value="cntt">Công nghệ Thông tin</option></select
+        ><br />
+        <input type="submit" value="Gửi" />
+      </form>
+    </div>
+    <footer>
+      <p>@2024 23521613 Nguyễn Đoàn Thùy Trâm</p>
+    </footer>
+  </body>
+</html>
