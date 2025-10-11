@@ -80,22 +80,28 @@
         <textarea id="message" name="message" rows="4" cols="50"></textarea
         ><br />
         <label>Giới tính:</label><br />
-        <input type="radio" id="male" name="gender" value="Nam" />
-        <label for="male">Nam</label>
-        <input type="radio" id="female" name="gender" value="Nữ" />
-        <label for="female">Nữ</label><br />
+        <div class="radio-group">
+          <input type="radio" id="male" name="gender" value="Nam" />
+          <label for="male">Nam</label>
+          <input type="radio" id="female" name="gender" value="Nữ" />
+          <label for="female">Nữ</label>
+        </div>
+        <br />
         <label>Sở thích:</label><br />
-        <input
-          type="checkbox"
-          id="nghenhac"
-          name="interest"
-          value="Nghe nhạc"
-        />
-        <label for="nghenhac">Nghe nhạc</label>
-        <input type="checkbox" id="boiloi" name="interest" value="Bơi lội" />
-        <label for="boiloi">Bơi lội</label>
-        <input type="checkbox" id="bien" name="interest" value="Biên" />
-        <label for="bien">Biên</label><br />
+        <div class="checkbox-group">
+          <input
+            type="checkbox"
+            id="nghenhac"
+            name="interest"
+            value="Nghe nhạc"
+          />
+          <label for="nghenhac">Nghe nhạc</label>
+          <input type="checkbox" id="boiloi" name="interest" value="Bơi lội" />
+          <label for="boiloi">Bơi lội</label>
+          <input type="checkbox" id="bien" name="interest" value="Biển" />
+          <label for="bien">Biên</label>
+        </div>
+        <br />
         <label for="major">Ngành học:</label><br />
         <select id="major" name="major">
           <option value="khoahocmaytinh">Khoa học Máy tính</option>
@@ -110,5 +116,6 @@
     <footer>
       <p>@2024 23521613 Nguyễn Đoàn Thùy Trâm</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
